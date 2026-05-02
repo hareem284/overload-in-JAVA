@@ -6,7 +6,8 @@ class superclasskid extends superclass {
     int number = 204;
 
     void printing() {
-        System.out.println("the number of the class is " + number);
+        System.out.println("the number of the kid class is " + number);
+        System.out.println("the number of the parent class is " + super.number);
     }
 }
 
