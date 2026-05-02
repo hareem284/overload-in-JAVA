@@ -5,6 +5,7 @@ class parent {
 }
 
 class child extends parent {
+    @Override
     void hi() {
         System.out.println("hello from the child class.");
     }
@@ -13,7 +14,7 @@ class child extends parent {
 class Main2 {
     public static void main(String[] args) {
         // child childobject1 = new child();
-        parent p = new parent();
+        parent p = new child();
         p.hi();
     }
 
